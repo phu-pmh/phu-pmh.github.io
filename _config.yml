@@ -1,10 +1,8 @@
-title: Phu Mon Htut
-author: Phu Mon Htut
-email: pmh330 (at) nyu (dot) edu
+title: Phu Mon Htut (Phu)
+author: Phu Mon Htut (Phu)
+email: pmh330(at)nyu(dot)edu
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Phu's website
 
 twitter_username:  phu_pmh
 github_username:  phu-pmh
@@ -17,7 +15,6 @@ institute_url: https://cds.nyu.edu
 
 # Build settings
 markdown: kramdown
-theme: academic-minima
 exclude:
   - Gemfile
   - Gemfile.lock
