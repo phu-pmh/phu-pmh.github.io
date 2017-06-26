@@ -13,6 +13,8 @@ institute_name: New York University
 institute_logo: 
 institute_url: https://cds.nyu.edu
 
+google_analytics: 'UA-96757552-1'
+
 # Build settings
 markdown: kramdown
 exclude:
