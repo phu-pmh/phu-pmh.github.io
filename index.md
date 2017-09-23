@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-I'm a [Data Science](http://cds.nyu.edu/) PhD student at **New York University** and a member of **[ML² Group](https://wp.nyu.edu/ml2/)**, co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](https://kyunghyuncho.me/). I'm interested in Machine Learning, Natural Language Processing and Information Retrieval.  
+I'm a [Data Science](http://cds.nyu.edu/) PhD student at **New York University** and a member of **[ML² Group](https://wp.nyu.edu/ml2/)**, co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](https://kyunghyuncho.me/). I'm interested in Machine Learning, Natural Language Processing, and their applications in Information Retrieval.  
 
 Prior to NYU, I developed *Information Retrieval and Extraction Systems* at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore.  
   
