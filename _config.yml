@@ -1,0 +1,23 @@
+title: Phu Mon Htut (Phu)
+author: Phu Mon Htut (Phu)
+
+description: > # this means to ignore newlines until "baseurl:"
+  Phu's website
+
+twitter_username:  phu_pmh
+github_username:  phu-pmh
+
+profile_picture: profile.png
+
+institute_name: New York University
+institute_logo: 
+institute_url: https://cds.nyu.edu
+
+google_analytics: 'UA-96757552-1'
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
