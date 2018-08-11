@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Phu Mon Htut"
+title                    : "Phu Mon Htut (Phu)"
 title_separator          : "-"
-name                     : &name "Phu Mon Htut"
+name                     : &name "Phu Mon Htut (Phu)"
 description              : &description "PhD student, New York University"
 url                      : https://phumonhtut.me # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -78,7 +78,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Phu Mon Htut"
+  name             : "Phu Mon Htut (Phu)"
   avatar           : "bio-photo.jpg"
   bio              : "PhD student </br> New York University"
   location         : "New York, USA"
