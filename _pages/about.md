@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/). I’m very fortunate to be advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My interest lies in deep learning and natural language understanding.
+I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/). I’m very fortunate to be advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My broad research interest lies in deep learning and natural language understanding.
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).
 
