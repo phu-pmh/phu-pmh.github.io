@@ -23,8 +23,8 @@ Publications
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
   Phu Mon Htut, Kyunghyun Cho, Samuel R. Bowman.  
   *To appear in Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2018.  
-  *Extended abstract to be presented at [Blackbox-NLP workshop](https://blackboxnlp.github.io/)*. 2018.  
-  [[Paper(coming soon!)]()] [[Data](https://github.com/phu-pmh/PRPN-Analysis)]
+  *Poster to be presented at [Blackbox-NLP workshop](https://blackboxnlp.github.io/)*. 2018.  
+  [[Paper](/publications/2018EMNLP/grammar-induction-neural.pdf)] [[Code/Data](https://github.com/phu-pmh/PRPN-Analysis)]
 
 * **Training a Ranking Function for Open-Domain Question Answering**.  
   Phu Mon Htut, Samuel R. Bowman, Kyunghyun Cho.  
