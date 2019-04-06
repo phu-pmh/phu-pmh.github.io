@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/). I’m advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My research interest lies in deep learning and natural language understanding.
+I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/). I’m advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. Currently, I'm working on learning latent syntactic structures of languages without direct supervision.
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).
 
@@ -41,5 +41,7 @@ Teaching
 Miscellaneous
 ------
 * You can refer to me as [**she/**](http://pronoun.is/she)[**they**](http://pronoun.is/they).   
+
+* I'm originally from Yangon, Myanmar(Burma). 
 
 * You can call me "Phu" (h sound is silent). Fun fact: I [don't have a family name](https://www.ted.com/watch/ted-institute/ted-state-street/ma-shwe-win-cynthia-not-good-with-names-local-name-customs-in-a-global-village). 
