@@ -14,8 +14,6 @@ I'll intern at [Facebook AI Research](https://research.fb.com/category/facebook-
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
-My research is generously supported by [AdeptMind](https://adeptmind.ai/).
-
 
 
 Publications
