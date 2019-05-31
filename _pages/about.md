@@ -42,7 +42,7 @@ Teaching
 * DS-GA 1011: Natural Language Processing with Representation Learning (Fall-2018)
 
 
-Teaching
+Service
 ------
 * Reviewer: [*SEM (2019)](https://starsem.org/2019/)
 * Secondary Reviewer: [BEA (2019)](https://sig-edu.org/bea/current)
