@@ -21,6 +21,7 @@ Publications
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
   __Phu Mon Htut__, Joel Tetreault.    
   *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA). 2019*
+  [Paper(TBA)]
 
 
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
@@ -39,6 +40,12 @@ Publications
 Teaching
 ------
 * DS-GA 1011: Natural Language Processing with Representation Learning (Fall-2018)
+
+
+Teaching
+------
+* Reviewer: [*SEM (2019)](https://starsem.org/2019/)
+* Secondary Reviewer: [BEA (2019)](https://sig-edu.org/bea/current)
 
 
 Miscellaneous
