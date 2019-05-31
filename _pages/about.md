@@ -20,7 +20,7 @@ Publications
 ------
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
   __Phu Mon Htut__, Joel Tetreault.    
-  *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA). 2019*  
+  *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA)*. 2019.    
   [Paper(TBA)]
 
 
