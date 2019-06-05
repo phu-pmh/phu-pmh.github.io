@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. Currently, I'm working on learning latent syntactic structures of languages without direct supervision.
 
-I'll intern at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did a summer internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
+I'm interning at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did a summer internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
@@ -44,7 +44,7 @@ Teaching
 
 Service
 ------
-* Reviewer: [*SEM (2019)](https://starsem.org/2019/)
+* Reviewer: [*SEM (2019)](https://starsem.org/2019/), [EMNLP (2019)](https://www.emnlp-ijcnlp2019.org/)
 * Secondary Reviewer: [BEA (2019)](https://sig-edu.org/bea/current)
 
 
