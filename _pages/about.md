@@ -44,7 +44,7 @@ Teaching
 
 Service
 ------
-* Reviewer: [*SEM (2019)](https://starsem.org/2019/), [EMNLP (2019)](https://www.emnlp-ijcnlp2019.org/)
+* Reviewer: [EMNLP (2019)](https://www.emnlp-ijcnlp2019.org/), [*SEM (2019)](https://starsem.org/2019/)
 * Secondary Reviewer: [BEA (2019)](https://sig-edu.org/bea/current)
 
 
