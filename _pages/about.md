@@ -18,6 +18,12 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+* **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.
+  Alex Warstadt, Yu Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, __Phu Mon Htut__, Paloma Jeretic and Samuel R. Bowman.
+  *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2018.  
+  [[Paper](TBA)]
+  
+
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
   __Phu Mon Htut__, Joel Tetreault.    
   *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA)*. 2019.    
