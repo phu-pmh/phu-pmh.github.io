@@ -21,7 +21,7 @@ Publications
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt, Yu Cao, Ioana Grosu, Wei Peng, Hagen Blix, Yining Nie, Anna Alsop, Shikha Bordia, Haokun Liu, Alicia Parrish, Sheng-Fu Wang, Jason Phang, Anhad Mohananey, __Phu Mon Htut__, Paloma Jeretic and Samuel R. Bowman.  
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
-  [[Paper](TBA)]
+  [[Paper](https://arxiv.org/abs/1909.02597)]
   
 
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
