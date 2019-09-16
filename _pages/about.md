@@ -18,6 +18,11 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+* **Inducing Constituency Trees through Neural Machine Translation**.  
+  __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
+  Preprint (Under Review).  
+  [Paper-TBA]  
+
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
@@ -40,7 +45,6 @@ Publications
   __Phu Mon Htut__, Samuel R. Bowman, Kyunghyun Cho.  
   *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics (NAACL): Student Research Workshop*. 2018.  
   [[Paper](http://aclweb.org/anthology/N18-4017)]  [[arXiv](https://arxiv.org/abs/1804.04264)] [[Poster](/publications/2018NAACL/NAACL_poster_v3.pdf)]
-
 
 
 Teaching
