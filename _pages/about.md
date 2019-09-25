@@ -21,7 +21,7 @@ Publications
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   Preprint (Under Review).  
-  [[Paper](https://drive.google.com/file/d/1eiWHklhW6-3NiVeWEye-8yvRGN3FR54Z/view?usp=sharing)] 
+  [[ArXiv](https://arxiv.org/abs/1909.10056)] 
 
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
