@@ -18,11 +18,6 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
-* **Generalized Inner Loop Meta-Learning**.
-Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.
- Preprint (Under Review).  
- [[ArXiv](https://arxiv.org/abs/1910.01727)]  
-
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   Preprint (Under Review).  
@@ -33,6 +28,10 @@ Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchan
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
   [[ArXiv](https://arxiv.org/abs/1909.02597)]
   
+* **Generalized Inner Loop Meta-Learning**.  
+Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.  
+Preprint (Under Review).  
+[[ArXiv](https://arxiv.org/abs/1910.01727)]  
 
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
   __Phu Mon Htut__, Joel Tetreault.    
