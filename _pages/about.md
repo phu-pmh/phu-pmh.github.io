@@ -18,6 +18,11 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+Generalized Inner Loop Meta-Learning.
+Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.
+ Preprint (Under Review).  
+ [[ArXiv](https://arxiv.org/abs/1910.01727)]  
+
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   Preprint (Under Review).  
