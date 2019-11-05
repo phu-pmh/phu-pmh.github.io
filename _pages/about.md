@@ -39,6 +39,11 @@ Preprint (Under Review).
   [[Paper](https://www.aclweb.org/anthology/W19-4449/)]
 
 
+* **Do Attention Heads in BERT Track Syntactic Dependencies?** . 
+   __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
+   *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract) . 
+   
+   
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2018.  
