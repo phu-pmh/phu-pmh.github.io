@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval.  
 
-I'm interning at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did a summer internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
+I'm interning at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did an internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
@@ -18,11 +18,15 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+* **Do Attention Heads in BERT Track Syntactic Dependencies?** . 
+   __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
+   *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
+   
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
-  Preprint (Under Review).  
-  [[ArXiv](https://arxiv.org/abs/1909.10056)] 
-
+  Preprint.  
+  [[ArXiv](https://arxiv.org/abs/1909.10056)]  
+  
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
@@ -38,11 +42,6 @@ Preprint (Under Review).
   *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA)*. 2019.    
   [[Paper](https://www.aclweb.org/anthology/W19-4449/)]
 
-
-* **Do Attention Heads in BERT Track Syntactic Dependencies?** . 
-   __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
-   *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract) . 
-   
    
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
@@ -64,6 +63,7 @@ Teaching
 Service
 ------
 * Reviewer: [EMNLP (2019)](https://www.emnlp-ijcnlp2019.org/), [*SEM (2019)](https://starsem.org/2019/)  
+* Organizer, [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
 
 
 Miscellaneous
