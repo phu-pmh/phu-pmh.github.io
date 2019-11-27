@@ -21,6 +21,7 @@ Publications
 * **Do Attention Heads in BERT Track Syntactic Dependencies?** . 
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
+   [[Paper](http://phumonhtut.me/publications/2019NDS/BERT_Attention_analysis.pdf)] [[Poster](http://phumonhtut.me/publications/2019NDS/NDSposter.pdf)]  
    
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
