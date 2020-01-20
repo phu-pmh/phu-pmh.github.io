@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval.  
+I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. I mainly work on applying transfer learning and multi-task learning techniques to NLP problems these days.  
 
 I'm interning at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did an internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
 
