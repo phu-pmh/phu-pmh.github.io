@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. I mainly work on applying transfer learning and multi-task learning techniques to NLP problems these days, and analyzing these methods to understand why and when they work/fail.  
+I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
-I'm interning at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) in summer 2019. I did an internship at [Grammarly](https://www.grammarly.com/) with [Joel Tetreault](https://www.cs.rochester.edu/~tetreaul/academic.html) in 2018.  
+Previously, I interned at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) and [Grammarly](https://www.grammarly.com/).  
 
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
@@ -58,6 +58,7 @@ Preprint (Under Review).
 
 Teaching
 ------
+* DS-GA 1012: Natural Language Understanding and Computational Semantics  (Spring-2020)
 * DS-GA 1011: Natural Language Processing with Representation Learning (Fall-2018)
 
 
