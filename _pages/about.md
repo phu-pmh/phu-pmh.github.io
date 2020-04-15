@@ -64,7 +64,7 @@ Teaching
 
 Service
 ------
-* Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/)  
+* Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0)  
 * Organizer, [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
 
 
