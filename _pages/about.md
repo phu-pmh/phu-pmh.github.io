@@ -18,14 +18,14 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
-* **Do Attention Heads in BERT Track Syntactic Dependencies?** . 
+* **Do Attention Heads in BERT Track Syntactic Dependencies?**   
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
    [[Paper](http://phumonhtut.me/publications/2019NDS/BERT_Attention_analysis.pdf)] [[Poster](http://phumonhtut.me/publications/2019NDS/NDSposter.pdf)]  
    
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
-  Preprint.  
+  Preprint. 2019.  
   [[ArXiv](https://arxiv.org/abs/1909.10056)]  
   
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
@@ -35,7 +35,7 @@ Publications
   
 * **Generalized Inner Loop Meta-Learning**.  
 Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.  
-Preprint (Under Review).  
+Preprint. 2019.    
 [[ArXiv](https://arxiv.org/abs/1910.01727)]  
 
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
