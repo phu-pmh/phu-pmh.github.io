@@ -18,30 +18,36 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+* **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
+  Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman  
+  *In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*. 2020.  
+  [[ArXiv](https://arxiv.org/abs/2005.00628)]  
+  
 * **Do Attention Heads in BERT Track Syntactic Dependencies?**   
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
    [[Paper](http://phumonhtut.me/publications/2019NDS/BERT_Attention_analysis.pdf)] [[Poster](http://phumonhtut.me/publications/2019NDS/NDSposter.pdf)]  
-   
+  
+* **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
+  Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
+  *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
+  [[ArXiv](https://arxiv.org/abs/1909.02597)]  
+  
+* **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
+  __Phu Mon Htut__, Joel Tetreault.    
+  *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA)*. 2019.    
+  [[Paper](https://www.aclweb.org/anthology/W19-4449/)]  
+  
+  
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   Preprint. 2019.  
   [[ArXiv](https://arxiv.org/abs/1909.10056)]  
   
-* **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
-  Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
-  *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
-  [[ArXiv](https://arxiv.org/abs/1909.02597)]
-  
 * **Generalized Inner Loop Meta-Learning**.  
 Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.  
 Preprint. 2019.    
 [[ArXiv](https://arxiv.org/abs/1910.01727)]  
-
-* **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
-  __Phu Mon Htut__, Joel Tetreault.    
-  *The Workshop on Innovative Use of NLP for Building Educational Applications (BEA)*. 2019.    
-  [[Paper](https://www.aclweb.org/anthology/W19-4449/)]
 
    
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
