@@ -18,16 +18,12 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 Publications
 ------
+\* _equal contribution_  
 * **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
   Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman.  
-  *In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics (ACL)*. 2020.  
+  *In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*. 2020.  
   [[ArXiv](https://arxiv.org/abs/2005.00628)]  
-  
-* **English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too**  
-Jason Phang, __Phu Mon Htut__, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Iacer Calixto, Samuel R. Bowman.  
-Preprint. 2020.  
-  [[ArXiv(TBA)]()]  
-  
+   
 * **Do Attention Heads in BERT Track Syntactic Dependencies?**   
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
