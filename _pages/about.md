@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning, natural language understanding, and information retrieval. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
+I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
 Previously, I interned at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) and [Grammarly](https://www.grammarly.com/).  
 
@@ -21,7 +21,7 @@ Publications
 \* _equal contribution_  
 * **Online Hyperparameter Tuning for Multi-Task Learning**  
   __Phu Mon Htut\*__, Owen Marschall\*, Samuel R. Bowman, Douwe Kiela, Edward Grefenstette, Cristina Savin, Kyunghyun Cho.  
-  *The Workshop on Continual Learning, ICML*. 2020.  
+  *[The Workshop on Continual Learning](https://sites.google.com/view/cl-icml), ICML*. 2020. (Extended abstract)  
   
 * **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
   Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman.  
@@ -31,12 +31,12 @@ Publications
 * **English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too**  
   Jason Phang*, Iacer Calixto*, __Phu Mon Htut__, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman.  
   Preprint. 2020.  
-  [[ArXiv(TBA)]()]  
+  [[ArXiv](https://arxiv.org/pdf/2005.13013.pdf)]  
 
 * **Do Attention Heads in BERT Track Syntactic Dependencies?**   
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
-   [[Paper](http://phumonhtut.me/publications/2019NDS/BERT_Attention_analysis.pdf)] [[Poster](http://phumonhtut.me/publications/2019NDS/NDSposter.pdf)]  
+   [[Paper](http://phumonhtut.me/publications/2019NDS/BERT_Attention_analysis.pdf)] [[Poster](http://phumonhtut.me/publications/2019NDS/NDSposter.pdf)] [[Blog](https://medium.com/@phu_pmh/do-attention-heads-in-bert-track-syntactic-dependencies-81c8a9be311a)]  
   
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
@@ -52,12 +52,12 @@ Publications
 * **Inducing Constituency Trees through Neural Machine Translation**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   Preprint. 2019.  
-  [[ArXiv](https://arxiv.org/abs/1909.10056)]  
+  [[ArXiv](https://arxiv.org/abs/1909.10056)] [[Blog](https://medium.com/@phu_pmh/inducing-constituency-trees-through-neural-machine-translation-a8b894ba39ac)]  
   
 * **Generalized Inner Loop Meta-Learning**.  
 Edward Grefenstette, Brandon Amos, Denis Yarats, __Phu Mon Htut__, Artem Molchanov, Franziska Meier, Douwe Kiela, Kyunghyun Cho, Soumith Chintala.  
 Preprint. 2019.    
-[[ArXiv](https://arxiv.org/abs/1910.01727)]  
+[[ArXiv](https://arxiv.org/abs/1910.01727)][[higher](https://github.com/facebookresearch/higher) library]  
 
    
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
@@ -74,14 +74,17 @@ Preprint. 2019.
 
 Teaching
 ------
-* DS-GA 1012: Natural Language Understanding and Computational Semantics  (Spring-2020)
-* DS-GA 1011: Natural Language Processing with Representation Learning (Fall-2018)
+TA for:  
+* DS-GA 1012: Natural Language Understanding and Computational Semantics, NYU  (Spring-2020)
+* Sequence-to-sequence learning Tutorial, African Master’s Program in Machine Intelligence (AMMI) (2020)
+* DS-GA 1011: Natural Language Processing with Representation Learning, NYU (Fall-2018)
 
 
 Service
 ------
 * Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0)  
-* Organizer, [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
+* Organizer: [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
+
 
 
 Miscellaneous
