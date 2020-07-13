@@ -22,6 +22,7 @@ Publications
 * **Online Hyperparameter Tuning for Multi-Task Learning**  
   __Phu Mon Htut\*__, Owen Marschall\*, Samuel R. Bowman, Douwe Kiela, Edward Grefenstette, Cristina Savin, Kyunghyun Cho.  
   *[The Workshop on Continual Learning](https://sites.google.com/view/cl-icml), ICML*. 2020. (Extended abstract)  
+  [[Paper](https://drive.google.com/file/d/1rDeGZeFDL4Q8xTcNZZCnrIe4JVIK5FsS/view?usp=sharing)] (This work is preliminary. Feel free to contact me for feedback.)  
   
 * **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
   Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman.  
