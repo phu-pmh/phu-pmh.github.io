@@ -19,6 +19,8 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 Publications
 ------
 \* _equal contribution_  
+
+**2020**
 * **Online Hyperparameter Tuning for Multi-Task Learning**  
   __Phu Mon Htut\*__, Owen Marschall\*, Samuel R. Bowman, Douwe Kiela, Edward Grefenstette, Cristina Savin, Kyunghyun Cho.  
   *[The Workshop on Continual Learning](https://sites.google.com/view/cl-icml), ICML*. 2020. (Extended abstract)  
@@ -34,6 +36,8 @@ Publications
   Preprint. 2020.  
   [[ArXiv](https://arxiv.org/pdf/2005.13013.pdf)]  
 
+
+**2019**  
 * **Do Attention Heads in BERT Track Syntactic Dependencies?**   
    __Phu Mon Htut\*__, Jason Phang\*, Shikha Bordia\*, and Samuel R. Bowman.    
    *Natural Language, Dialog and Speech (NDS) Symposium, The New York Academy of Sciences*. 2019. (Extended Abstract).  
@@ -61,6 +65,7 @@ Preprint. 2019.
 [[ArXiv](https://arxiv.org/abs/1910.01727)][[higher](https://github.com/facebookresearch/higher) library]  
 
    
+**2018**   
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
   *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2018.  
