@@ -27,14 +27,18 @@ Publications
   
 * **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
   Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman.  
-  *In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)*. 2020.  
+  *ACL*. 2020.  
   [[ArXiv](https://arxiv.org/abs/2005.00628)]  
    
 * **English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too**  
   Jason Phang*, Iacer Calixto*, __Phu Mon Htut__, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman.  
-  *In Proceedings of the AACL-IJCNLP*. 2020.  
+  *AACL-IJCNLP*. 2020.  
   [[ArXiv](https://arxiv.org/pdf/2005.13013.pdf)]  
 
+* **jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models**  
+  Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, __Phu Mon Htut__, Alex Wang, Ian Tenney, Samuel R. Bowman.  
+  *ACL*. 2020. (Demo track)
+  [[ArXiv](https://arxiv.org/abs/2003.02249)][[jiant library](https://jiant.info/)]    
 
 **2019**  
 * **Do Attention Heads in BERT Track Syntactic Dependencies?**   
@@ -44,7 +48,7 @@ Publications
   
 * **Investigating BERT’s Knowledge of Language: Five Analysis Methods with NPIs**.  
   Alex Warstadt\*, Yu Cao\*, Ioana Grosu\*, Wei Peng\*, Hagen Blix\*, Yining Nie\*, Anna Alsop\*, Shikha Bordia\*, Haokun Liu\*, Alicia Parrish\*, Sheng-Fu Wang\*, Jason Phang\*, Anhad Mohananey\*, __Phu Mon Htut\*__, Paloma Jeretic\* and Samuel R. Bowman.  
-  *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2019.  
+  *EMNLP*. 2019.  
   [[ArXiv](https://arxiv.org/abs/1909.02597)]  
   
 * **The Unbearable Weight of Generating Artificial Errors for Grammatical Error Correction**.  
@@ -67,13 +71,13 @@ Preprint. 2019.
 **2018**   
 * **Grammar Induction with Neural Language Models: An Unusual Replication**.  
   __Phu Mon Htut__, Kyunghyun Cho, Samuel R. Bowman.  
-  *Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP)*. 2018.  
-  *Proceedings of the Workshop on the Analysis and Interpretation of Neural Networks for NLP [(Blackbox-NLP)](https://blackboxnlp.github.io/)*. 2018. (Extended abstract)  
+  *EMNLP*. 2018.  
+  *The Workshop on the Analysis and Interpretation of Neural Networks for NLP [(Blackbox-NLP)](https://blackboxnlp.github.io/)*. 2018. (Extended abstract)  
  [[Paper](https://www.aclweb.org/anthology/D18-1544/)]  [[arXiv](https://arxiv.org/abs/1808.10000)] [[Code/Output-Parses](https://github.com/phu-pmh/PRPN-Analysis)]
 
 * **Training a Ranking Function for Open-Domain Question Answering**.  
   __Phu Mon Htut__, Samuel R. Bowman, Kyunghyun Cho.  
-  *Proceedings of the Conference of the North American Chapter of the Association for Computational Linguistics (NAACL): Student Research Workshop*. 2018.  
+  *NAACL: Student Research Workshop*. 2018.  
   [[Paper](http://aclweb.org/anthology/N18-4017)]  [[arXiv](https://arxiv.org/abs/1804.04264)] [[Poster](/publications/2018NAACL/NAACL_poster_v3.pdf)]
 
 
@@ -87,7 +91,7 @@ TA for:
 
 Service
 ------
-* Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0)  
+* Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0), [AACL-SRW](https://aacl2020-srw.github.io/)    
 * Organizer: [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
 
 
