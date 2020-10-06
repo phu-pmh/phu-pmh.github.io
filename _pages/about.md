@@ -37,7 +37,7 @@ Publications
 
 * **jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models**  
   Yada Pruksachatkun\*, Phil Yeres\*, Haokun Liu, Jason Phang, __Phu Mon Htut__, Alex Wang, Ian Tenney, Samuel R. Bowman.  
-  *ACL*. 2020. (Demo track)
+  *ACL*. 2020. (Demo track)  
   [[ArXiv](https://arxiv.org/abs/2003.02249)][[jiant library](https://jiant.info/)]    
 
 **2019**  
