@@ -31,12 +31,12 @@ Publications
   [[ArXiv](https://arxiv.org/abs/2005.00628)]  
    
 * **English Intermediate-Task Training Improves Zero-Shot Cross-Lingual Transfer Too**  
-  Jason Phang*, Iacer Calixto*, __Phu Mon Htut__, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman.  
+  Jason Phang\*, Iacer Calixto\*, __Phu Mon Htut__, Yada Pruksachatkun, Haokun Liu, Clara Vania, Katharina Kann, Samuel R. Bowman.  
   *AACL-IJCNLP*. 2020.  
   [[ArXiv](https://arxiv.org/pdf/2005.13013.pdf)]  
 
 * **jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models**  
-  Yada Pruksachatkun, Phil Yeres, Haokun Liu, Jason Phang, __Phu Mon Htut__, Alex Wang, Ian Tenney, Samuel R. Bowman.  
+  Yada Pruksachatkun\*, Phil Yeres\*, Haokun Liu, Jason Phang, __Phu Mon Htut__, Alex Wang, Ian Tenney, Samuel R. Bowman.  
   *ACL*. 2020. (Demo track)
   [[ArXiv](https://arxiv.org/abs/2003.02249)][[jiant library](https://jiant.info/)]    
 
