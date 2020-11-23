@@ -92,7 +92,11 @@ TA for:
 Service
 ------
 * Reviewer: [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0), [AACL-SRW](https://aacl2020-srw.github.io/)    
-* Organizer: [NYC AI Workshop](https://nyu-mll.github.io/nyc-ai-workshop) 
+
+Outreach
+-----
+* Organizer and TA: NYU AI School [2019](https://nyu-mll.github.io/nyc-ai-workshop), [2020](https://nyu-mll.github.io/nyu-ai-school-2021/)
+* Organizer and Mentor: [Myanmar NLP Reading Group](https://myanmarnlp.github.io/reading-group/)
 
 
 
