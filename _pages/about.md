@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
-Previously, I interned at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) and [Grammarly](https://www.grammarly.com/).  
+I'll join Amazon Web Services as an applied scientist intern in 2021 Summer. Previously, I interned at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) and [Grammarly](https://www.grammarly.com/).  
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
 
