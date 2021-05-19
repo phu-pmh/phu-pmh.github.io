@@ -19,11 +19,12 @@ Publications
 ------
 \* _equal contribution_  
 
+**2021**
+* **Comparing Test Sets with Item Response Theory**  
+ Clara Vania\*, __Phu Mon Htut\*__, William Huang\*, Dhara Mungra, Richard Yuanzhe Pang, Jason Phang, Haokun Liu, Kyunghyun Cho, Samuel R. Bowman.    
+ *ACL*. 2020.
+
 **2020**
-* **Online Hyperparameter Tuning for Multi-Task Learning**  
-  __Phu Mon Htut\*__, Owen Marschall\*, Samuel R. Bowman, Douwe Kiela, Edward Grefenstette, Cristina Savin, Kyunghyun Cho.  
-  *[The Workshop on Continual Learning](https://sites.google.com/view/cl-icml), ICML*. 2020. (Extended abstract)  
-  [[Paper](https://drive.google.com/file/d/1rDeGZeFDL4Q8xTcNZZCnrIe4JVIK5FsS/view?usp=sharing)] [[Slides](https://drive.google.com/file/d/12Q8iNUCy7SzWRZjnDG-LyYgwkhq4CLqi/view?usp=sharing)] (This work is preliminary)  
   
 * **Intermediate-Task Transfer Learning with Pretrained Models for Natural Language Understanding: When and Why Does It Work?**  
   Yada Pruksachatkun\*, Jason Phang\*, Haokun Liu\*, __Phu Mon Htut\*__, Xiaoyi Zhang, Richard Yuanzhe Pang, Clara Vania, Katharina Kann, Samuel R. Bowman.  
