@@ -10,7 +10,7 @@ redirect_from:
 
 I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
-I'm interning at Amazon Web Services as an applied scientist intern in 2021 Summer. Previously, I interned at [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/) and [Grammarly](https://www.grammarly.com/).  
+Previously, I interned at [AWS AI](https://www.amazon.science/), [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/), and [Grammarly](https://www.grammarly.com/).  
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
 
 
@@ -22,7 +22,13 @@ Publications
 **2021**
 * **Comparing Test Sets with Item Response Theory**  
  Clara Vania\*, __Phu Mon Htut\*__, William Huang\*, Dhara Mungra, Richard Yuanzhe Pang, Jason Phang, Haokun Liu, Kyunghyun Cho, Samuel R. Bowman.    
- *ACL*. 2021.
+ *ACL*. 2021.  
+ [[Paper](https://aclanthology.org/2021.acl-long.92/)]  
+ 
+* **BBQ: A Hand-Built Bias Benchmark for Question Answering**  
+ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, __Phu Mon Htut__, Samuel R Bowman.     
+ Preprint. 2021.  
+ [[ArXiv](https://arxiv.org/abs/2110.08193)]   
 
 **2020**
   
@@ -103,7 +109,7 @@ Outreach
 
 Miscellaneous
 ------
-* You can refer to me as [**she/**](http://pronoun.is/she)[**they**](http://pronoun.is/they).   
+* You can refer to me as [**she/**](http://pronoun.is/she)[**they**](http://pronoun.is/they). I'm queer non-binary.   
 
 * I'm originally from Yangon, Myanmar(Burma). 
 
