@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a [Data Science](https://cds.nyu.edu/) PhD student at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
+I’m a [Data Science](https://cds.nyu.edu/) PhD candidate at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
 Previously, I interned at [AWS AI](https://www.amazon.science/), [Facebook AI Research](https://research.fb.com/category/facebook-ai-research/), and [Grammarly](https://www.grammarly.com/).  
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](http://scse.ntu.edu.sg/Pages/Home.aspx).  
@@ -98,11 +98,11 @@ TA for:
 
 Service
 ------
-* Reviewer: [NAACL](https://naacl.org/), [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0), [AACL-SRW](https://aacl2020-srw.github.io/)    
+* Reviewer: [ARR](https://aclrollingreview.org/), [NAACL](https://naacl.org/), [ACL](https://www.aclweb.org/portal/acl), [EMNLP](https://www.emnlp-ijcnlp2019.org/), [*SEM](https://starsem.org/), [ACL-SRW](https://sites.google.com/view/acl20studentresearchworkshop/home?authuser=0), [AACL-SRW](https://aacl2020-srw.github.io/)    
 
 Outreach
 -----
-* Organizer and TA: NYU AI School [2019](https://nyu-mll.github.io/nyc-ai-workshop), [2021](https://nyu-mll.github.io/nyu-ai-school-2021/)
+* Organizer and TA: NYU AI School [2019](https://nyu-mll.github.io/nyc-ai-workshop), [2021](https://nyu-mll.github.io/nyu-ai-school-2021/), [2022](https://nyu-mll.github.io/nyu-ai-school-2022)
 * Organizer and Mentor: [Myanmar NLP Reading Group](https://myanmarnlp.github.io/reading-group/)
 
 
