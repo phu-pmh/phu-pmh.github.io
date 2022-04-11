@@ -19,16 +19,19 @@ Publications
 ------
 \* _equal contribution_  
 
+**2022**
+* **BBQ: A Hand-Built Bias Benchmark for Question Answering**  
+ Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, __Phu Mon Htut__, Samuel R Bowman.     
+ *ACL*. 2022.  
+ [[ArXiv](https://arxiv.org/abs/2110.08193)]  
+ 
+   
 **2021**
 * **Comparing Test Sets with Item Response Theory**  
  Clara Vania\*, __Phu Mon Htut\*__, William Huang\*, Dhara Mungra, Richard Yuanzhe Pang, Jason Phang, Haokun Liu, Kyunghyun Cho, Samuel R. Bowman.    
  *ACL*. 2021.  
  [[Paper](https://aclanthology.org/2021.acl-long.92/)]  
  
-* **BBQ: A Hand-Built Bias Benchmark for Question Answering**  
- Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, __Phu Mon Htut__, Samuel R Bowman.     
- Preprint. 2021.  
- [[ArXiv](https://arxiv.org/abs/2110.08193)]   
 
 **2020**
   
