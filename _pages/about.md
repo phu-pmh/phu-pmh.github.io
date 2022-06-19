@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-May 2022 Update: I finally [defended my dissertation](https://twitter.com/phu_pmh/status/1521593366307291136)!  
-I’m a [Data Science](https://cds.nyu.edu/) PhD candidate at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). I'm broadly interested in deep learning and natural language understanding. These days, I mainly work on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
+I'm an applied scientist at [AWS Translate](https://aws.amazon.com/translate/). 
+I was a [Data Science](https://cds.nyu.edu/) PhD candidate at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). During my PhD, I worked on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
 Previously, I interned at [AWS AI](https://www.amazon.science/), [Facebook AI Research](https://ai.facebook.com/), and [Grammarly](https://www.grammarly.com/).  
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I earned my bachelor’s degree in Computer Science at [Nanyang Technological University](https://www.ntu.edu.sg/scse).  
@@ -26,6 +26,10 @@ Publications
  *ACL*. 2022.  
  [[ArXiv](https://arxiv.org/abs/2110.08193)]  
  
+* **Clustering Examples in Multi-Dataset Benchmarks with Item Response Theory**  
+ Pedro Rodriguez, __Phu Mon Htut__, John P Lalor, João Sedoc.     
+ *The Workshop on Insights from Negative Results in NLP at ACL*. 2022.  
+ [[Paper](https://aclanthology.org/2022.insights-1.14/)]  
    
 **2021**
 * **Comparing Test Sets with Item Response Theory**  
