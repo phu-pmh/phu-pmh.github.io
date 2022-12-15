@@ -17,7 +17,8 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 
 
 Publications
-------
+------  
+Please check my [Google Scholar](https://scholar.google.com/citations?user=X4jOTDMAAAAJ&hl=en) for a more up-to-date list.  
 \* _equal contribution_  
 
 **2022**
