@@ -19,8 +19,15 @@ Prior to NYU, I developed Information Retrieval systems at [Institute of High Pe
 Publications
 ------  
 Please check my [Google Scholar](https://scholar.google.com/citations?user=X4jOTDMAAAAJ&hl=en) for a more up-to-date list.  
-\* _equal contribution_  
+\* indicates _equal contribution_  
 
+**2023**
+* **(QA)²: Question Answering with Questionable Assumptions**  
+ Najoung Kim\*, __Phu Mon Htut\*__, Samuel R Bowman, Jackson Petty.       
+ Preprint. 2023.  
+ [[ArXiv](https://arxiv.org/abs/2110.08193)] 
+ 
+ 
 **2022**
 * **BBQ: A Hand-Built Bias Benchmark for Question Answering**  
  Alicia Parrish, Angelica Chen, Nikita Nangia, Vishakh Padmakumar, Jason Phang, Jana Thompson, __Phu Mon Htut__, Samuel R Bowman.     
