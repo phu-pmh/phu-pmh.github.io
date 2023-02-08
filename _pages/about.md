@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an applied scientist at [AWS AI Labs](https://www.amazon.science/) working on [machine translation](https://aws.amazon.com/translate/).   
+I'm an applied scientist at [AWS AI Labs](https://www.amazon.science/).   
 I was a [Data Science](https://cds.nyu.edu/) PhD candidate at **New York University** and a member of *[ML² Group](https://wp.nyu.edu/ml2/)* at [CILVR](https://wp.nyu.edu/cilvr/), co-advised by Prof. [Sam Bowman](https://www.nyu.edu/projects/bowman/) and Prof. [Kyunghyun Cho](http://www.kyunghyuncho.me/). During my PhD, I worked on applying transfer learning and multi-task learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail.  
 
 During my PhD, I interned at [AWS AI Labs](https://www.amazon.science/), [Facebook AI Research](https://ai.facebook.com/), and [Grammarly](https://www.grammarly.com/).  
