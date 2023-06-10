@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm an applied scientist at [AWS AI Labs](https://www.amazon.science/).   
+I'm an applied scientist at [AWS AI Labs](https://www.amazon.science/), currently working on foundational models at [Amazon Bedrock](https://aws.amazon.com/bedrock/).   
 
-I earned a Ph.D in [Data Science](https://cds.nyu.edu/) from **New York University** under the supervision of [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My thesis focuses on applying transfer learning methods to NLP problems, and analyzing these methods to understand why and when they work/fail. During my Ph.D, I also spent time at [AWS AI Labs](https://www.amazon.science/), [Facebook AI Research](https://ai.facebook.com/), and [Grammarly](https://www.grammarly.com/).   
+I earned a Ph.D in [Data Science](https://cds.nyu.edu/) from **New York University** under the supervision of [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My thesis focuses on applying transfer learning methods to NLP problems, and analyzing and benchmarking these methods to understand why and when they work or fail. During my Ph.D, I also spent time at [AWS AI Labs](https://www.amazon.science/), [Facebook AI Research](https://ai.facebook.com/), and [Grammarly](https://www.grammarly.com/).   
 Prior to NYU, I developed Information Retrieval systems at [Institute of High Performance Computing](https://www.a-star.edu.sg/ihpc) in Singapore. Before that, I did my bachelor’s degree in Computer Science at [Nanyang Technological University](https://www.ntu.edu.sg/scse), Singapore.  
 
 
