@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Principal Applied Scientist at Oracle working on Responsible AI in OCI AI Science team. Prior to that, I was an applied scientist at [AWS AI Labs](https://www.amazon.science/) where I worked a variety of products including building [safeguards](https://aws.amazon.com/bedrock/guardrails/) and [RAG applications](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) for foundational models at [Amazon Bedrock](https://aws.amazon.com/bedrock/).
+I am a Principal Applied Scientist at Oracle working on Responsible AI in OCI AI Science team. Prior to that, I was an applied scientist at [AWS AI Labs](https://www.amazon.science/) where I worked a variety of projects including building [safeguards](https://aws.amazon.com/bedrock/guardrails/) and [RAG applications](https://aws.amazon.com/blogs/aws/build-rag-and-agent-based-generative-ai-applications-with-new-amazon-titan-text-premier-model-available-in-amazon-bedrock/) for foundational models at [Amazon Bedrock](https://aws.amazon.com/bedrock/).
 
 I earned a Ph.D in [Data Science](https://cds.nyu.edu/) from **New York University** under the supervision of [Sam Bowman](https://www.nyu.edu/projects/bowman/) and [Kyunghyun Cho](http://www.kyunghyuncho.me/). My thesis focuses on applying transfer/multi-task learning methods to Natural Language Understanding (NLU) problems, and analyzing and benchmarking these methods to understand why and when they work or fail. During my Ph.D, I also spent time at [AWS AI Labs](https://www.amazon.science/), [Meta AI Research](https://ai.meta.com/research/), and [Grammarly Research](https://www.grammarly.com/).   
 
