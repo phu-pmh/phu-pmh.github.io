@@ -17,176 +17,227 @@ try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dat
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;1,7..72,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap">
 <style>
-/* Layout: one quiet reading column, name block on top, themes as short essays, a dated ledger at the end */
 :root {
-  --bg: #ffffff;
-  --ink: #1b1d24;
-  --muted: #5d6170;
-  --rule: #e4e5eb;
-  --accent: #2f45b5;
-  --tag-bg: #eef0fa;
-  --accent-soft: #d5dbf6;
-  --serif: "Literata", Georgia, "Times New Roman", serif;
-  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --bg: #f8f6f1;
+  --paper: #fffdf8;
+  --ink: #1d1b18;
+  --muted: #6c675e;
+  --faint: #a29c90;
+  --rule: #e3ded3;
+  --accent: #a3361e;
+  --accent-ink: #8a2c17;
+  --select: #f1d9cf;
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #14151a; --ink: #e6e7ec; --muted: #9a9eac; --rule: #2a2c35;
-    --accent: #9fb0ff; --tag-bg: #232640; --accent-soft: #34396a; color-scheme: dark;
+    --bg: #141311; --paper: #1a1916; --ink: #ebe6db; --muted: #a39d91; --faint: #6f6a61;
+    --rule: #2c2a25; --accent: #e38a6b; --accent-ink: #f0a487; --select: #4a2a20; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14151a; --ink: #e6e7ec; --muted: #9a9eac; --rule: #2a2c35;
-  --accent: #9fb0ff; --tag-bg: #232640; --accent-soft: #34396a; color-scheme: dark;
+  --bg: #141311; --paper: #1a1916; --ink: #ebe6db; --muted: #a39d91; --faint: #6f6a61;
+  --rule: #2c2a25; --accent: #e38a6b; --accent-ink: #f0a487; --select: #4a2a20; color-scheme: dark;
 }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
 body {
-  background: var(--bg); color: var(--ink);
-  font-family: var(--serif); font-size: 17px; line-height: 1.65;
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--serif); font-size: 18.5px; line-height: 1.6;
+  font-optical-sizing: auto; font-kerning: normal; font-variant-numeric: oldstyle-nums proportional-nums;
+  text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
-main { max-width: 40rem; margin: 0 auto; padding-block: 4.5rem 5rem; display: grid; gap: 3rem; }
-a { color: var(--accent); text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
-a:hover { border-bottom-color: var(--accent); }
-a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+::selection { background: var(--select); }
+main { max-width: 47rem; margin: 0 auto; padding-block: 3.25rem 4rem; }
 
-header { display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; align-items: center; }
-.photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; background: var(--tag-bg); flex: none; }
-h1 { font-size: 2.1rem; font-weight: 500; line-height: 1.15; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
-.role { margin: 0.35rem 0 0; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
-.links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin-top: 0.7rem; font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.02em; }
+a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  text-decoration-thickness: 1px; text-underline-offset: 0.18em; transition: color .15s, text-decoration-color .15s; }
+a:hover { color: var(--accent-ink); text-decoration-color: var(--accent); }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 
-.intro p { margin: 0; font-size: 1.12rem; line-height: 1.6; }
+.sc { font-variant-caps: all-small-caps; letter-spacing: 0.06em; font-variant-numeric: lining-nums; }
 
-h2 { font-family: var(--mono); font-size: 0.75rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.14em;
-  color: var(--muted); margin: 0 0 1.25rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule); }
-.theme { border: 1px solid var(--rule); border-radius: 10px; background: var(--bg); }
-.theme + .theme { margin-top: 0.75rem; }
-.theme summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; padding: 1rem 1.1rem; border-radius: 10px; }
-.theme summary::-webkit-details-marker { display: none; }
-.theme summary:hover { background: var(--tag-bg); }
-.theme summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.icon { width: 52px; height: 52px; border-radius: 14px; background: var(--tag-bg); display: grid; place-items: center; }
-.icon svg { width: 34px; height: 34px; }
-.icon .fill { fill: var(--accent-soft); stroke: none; }
-.icon .line { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
-.icon .thin { stroke-width: 1.8; }
-.icon .dot { fill: var(--accent); }
-.icon .badge { fill: var(--accent); }
-.icon .tick { fill: none; stroke: var(--bg); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.head { display: grid; gap: 0.15rem; min-width: 0; }
-.title { font-size: 1.1rem; font-weight: 600; line-height: 1.3; }
-.blurb { color: var(--muted); font-size: 0.93rem; line-height: 1.45; }
-.chev { width: 9px; height: 9px; border-right: 1.6px solid var(--muted); border-bottom: 1.6px solid var(--muted); transform: rotate(45deg); transition: transform 0.2s; margin-right: 0.3rem; }
-.theme[open] .chev { transform: rotate(-135deg); }
-.more { display: grid; gap: 0.8rem; padding: 0 1.1rem 1.2rem calc(1.1rem + 52px + 1rem); }
-.more p { margin: 0; }
-@media (max-width: 560px) { .more { padding-left: 1.1rem; } .theme summary { gap: 0.8rem; } .icon { width: 44px; height: 44px; border-radius: 12px; } .icon svg { width: 28px; height: 28px; } }
+/* masthead */
+.topbar { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+  color: var(--muted); font-size: 0.95rem; padding-bottom: 0.9rem; border-bottom: 1px solid var(--ink); }
+.topbar .site { font-style: italic; }
+.toggle { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+.toggle:hover { color: var(--accent-ink); }
+.toggle .to-light, :root[data-theme="dark"] .toggle .to-dark { display: none; }
+:root[data-theme="dark"] .toggle .to-light { display: inline; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .toggle .to-dark { display: none; }
+  :root:not([data-theme="light"]) .toggle .to-light { display: inline; }
+}
 
-.cite { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.01em; white-space: nowrap;
-  background: var(--tag-bg); border: 0; border-radius: 4px; padding: 0.1rem 0.4rem; vertical-align: 0.08em; }
-.cite:hover { background: color-mix(in srgb, var(--accent) 18%, var(--tag-bg)); }
+.masthead { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: end; padding: 2.6rem 0 2.2rem; }
+h1 { font-weight: 400; font-size: clamp(2.6rem, 6.4vw, 3.6rem); line-height: 1; letter-spacing: -0.022em; margin: 0; }
+h1 .nick { font-style: italic; color: var(--muted); font-size: 0.62em; letter-spacing: -0.01em; white-space: nowrap; }
+.role { margin: 1rem 0 0; font-size: 1.05rem; line-height: 1.45; color: var(--muted); }
+.role strong { font-weight: 500; color: var(--ink); }
+.links { display: flex; flex-wrap: wrap; gap: 0.2rem 1.15rem; margin: 1rem 0 0; padding: 0; list-style: none; font-size: 1rem; }
+.links a { text-decoration-color: var(--rule); }
+.links a:hover { text-decoration-color: var(--accent); }
+figure.portrait { margin: 0; width: 132px; }
+figure.portrait img { display: block; width: 132px; height: 160px; object-fit: cover; object-position: 50% 30%;
+  border-radius: 1px; filter: saturate(0.88) contrast(1.02); box-shadow: 0 0 0 1px var(--rule); }
 
-.ledger { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.8rem 1.25rem; margin: 0; }
-.ledger dt { font-family: var(--mono); font-size: 0.78rem; color: var(--muted); padding-top: 0.22rem; font-variant-numeric: tabular-nums; }
+.lede { font-size: 1.32rem; line-height: 1.5; margin: 0; padding: 2rem 0 2.4rem; border-top: 1px solid var(--rule);
+  letter-spacing: -0.003em; text-wrap: pretty; }
+
+/* sections: label in the margin, content in the column */
+.sec { display: grid; grid-template-columns: 8.25rem 1fr; gap: 0 1.75rem; padding: 1.7rem 0 2.2rem; border-top: 1px solid var(--rule); }
+.sec > h2 { margin: 0; font-size: 1.05rem; font-weight: 500; color: var(--accent-ink); line-height: 1.3; padding-top: 0.2rem;
+  font-variant-caps: all-small-caps; letter-spacing: 0.08em; }
+.sec > .body { min-width: 0; }
+
+/* research topics */
+.topic { border-bottom: 1px solid var(--rule); }
+.topic:first-child summary { padding-top: 0; }
+.topic:last-child { border-bottom: 0; }
+.topic summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr 62px; gap: 1.25rem;
+  align-items: start; padding: 1.15rem 0 1.2rem; }
+.topic summary::-webkit-details-marker { display: none; }
+.topic .num { font-style: italic; color: var(--accent); margin-right: 0.45rem; font-variant-numeric: oldstyle-nums; }
+.topic .t { display: block; font-size: 1.32rem; line-height: 1.25; font-weight: 500; letter-spacing: -0.01em; }
+.topic .b { display: block; margin-top: 0.35rem; color: var(--muted); font-size: 1rem; line-height: 1.5; font-style: italic; }
+.topic .more { display: inline-flex; align-items: center; gap: 0.4rem; margin-top: 0.55rem; font-size: 0.95rem; color: var(--accent-ink);
+  font-variant-caps: all-small-caps; letter-spacing: 0.07em; }
+.topic .more::before { content: "Read more"; }
+.topic[open] .more::before { content: "Close"; }
+.topic .plus { position: relative; width: 9px; height: 9px; }
+.topic .plus::before, .topic .plus::after { content: ""; position: absolute; left: 0; top: 4px; width: 9px; height: 1.3px; background: currentColor; transition: transform .2s; }
+.topic .plus::after { transform: rotate(90deg); }
+.topic[open] .plus::after { transform: rotate(0deg); }
+.topic summary:hover .t { color: var(--accent-ink); }
+.art { width: 62px; height: 62px; color: var(--muted); }
+.art .a { stroke: var(--accent); }
+.art .af { fill: var(--accent); stroke: none; }
+.art .h { stroke-width: 0.8; opacity: 0.55; }
+.topic .text { padding: 0 0 1.4rem; }
+.topic .text p { margin: 0 0 0.85rem; hyphens: auto; }
+.topic .text p:last-child { margin-bottom: 0; }
+
+.cite { font-variant-caps: all-small-caps; letter-spacing: 0.04em; font-variant-numeric: lining-nums; white-space: nowrap;
+  color: var(--muted); text-decoration: none; }
+.cite::before { content: "["; color: var(--faint); }
+.cite::after { content: "]"; color: var(--faint); }
+.cite:hover { color: var(--accent-ink); }
+
+/* ledgers */
+.ledger { display: grid; grid-template-columns: 6.6rem 1fr; gap: 0.95rem 1.25rem; margin: 0; }
+.ledger dt { color: var(--muted); font-style: italic; font-variant-numeric: oldstyle-nums tabular-nums; white-space: nowrap; }
 .ledger dd { margin: 0; min-width: 0; }
-.ledger .sub { display: block; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
+.ledger .sub { display: block; color: var(--muted); font-size: 0.95rem; line-height: 1.5; margin-top: 0.1rem; }
 
-.misc p { margin: 0; color: var(--muted); font-size: 0.95rem; }
-footer { font-family: var(--mono); font-size: 0.7rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 1rem; }
+.misc p { margin: 0; }
 
-@media (max-width: 560px) {
-  body { font-size: 16px; }
-  main { padding-block: 2.5rem 3rem; gap: 2.5rem; }
-  header { grid-template-columns: 1fr; gap: 1rem; }
-  .photo { width: 72px; height: 72px; }
-  h1 { font-size: 1.75rem; }
-  .ledger { grid-template-columns: 1fr; gap: 0.15rem; }
-  .ledger dd { margin-bottom: 0.8rem; }
+footer { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; color: var(--faint); font-size: 0.9rem;
+  border-top: 1px solid var(--ink); padding-top: 0.9rem; font-style: italic; }
+
+@media (max-width: 640px) {
+  body { font-size: 17px; }
+  main { padding-block: 1.5rem 3rem; }
+  .masthead { grid-template-columns: 1fr; gap: 1.4rem; padding-top: 2rem; }
+  figure.portrait { order: -1; width: 96px; }
+  figure.portrait img { width: 96px; height: 116px; }
+  .lede { font-size: 1.17rem; }
+  .sec { grid-template-columns: 1fr; padding-top: 1.3rem; }
+  .sec > h2 { margin-bottom: 0.6rem; }
+  .topic summary { grid-template-columns: 1fr 46px; gap: 1rem; }
+  .art { width: 46px; height: 46px; }
+  .ledger { grid-template-columns: 1fr; gap: 0.1rem; }
+  .ledger dd { margin-bottom: 0.85rem; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
-.theme-toggle { position: fixed; top: 14px; right: max(14px, env(safe-area-inset-right, 0px)); width: 36px; height: 36px;
-  border-radius: 50%; border: 1px solid var(--rule); background: var(--bg); color: var(--muted); cursor: pointer;
-  display: grid; place-items: center; padding: 0; transition: color .15s, border-color .15s; z-index: 10; }
-.theme-toggle:hover { color: var(--accent); border-color: var(--accent-soft); }
-.theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
-.theme-toggle .moon { display: none; }
-:root[data-theme="dark"] .theme-toggle .sun { display: none; }
-:root[data-theme="dark"] .theme-toggle .moon { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle .sun { display: none; }
-  :root:not([data-theme="light"]) .theme-toggle .moon { display: block; }
-}
 </style>
 </head>
 <body>
-
 <main>
-  <button class="theme-toggle" type="button" aria-label="Switch between light and dark mode" title="Light / dark">
-    <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4L6 18M18 6l1.4-1.4"/></svg>
-    <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
-  </button>
-  <header>
-    <img class="photo" src="/images/headshot.jpg" alt="Phu Mon Htut">
+  <div class="topbar">
+    <span class="site">phu-pmh.github.io</span>
+    <button class="toggle" type="button" aria-label="Switch between light and dark mode"><span class="to-dark">Dark mode</span><span class="to-light">Light mode</span></button>
+  </div>
+
+  <header class="masthead">
     <div>
-      <h1>Phu Mon Htut (Phu)</h1>
-      <p class="role">Principal Applied Scientist, Responsible AI<br>Oracle Cloud Infrastructure · New York</p>
-      <nav class="links" aria-label="Profiles">
-        <a href="https://scholar.google.com/citations?user=X4jOTDMAAAAJ">Scholar</a>
-        <a href="https://www.linkedin.com/in/phumonhtut/">LinkedIn</a>
-        <a href="https://github.com/phu-pmh">GitHub</a>
-        <a href="https://x.com/phu_pmh">X</a>
-      </nav>
+      <h1>Phu Mon Htut <span class="nick">(Phu)</span></h1>
+      <p class="role"><strong>Principal Applied Scientist</strong>, Responsible AI<br>Oracle Cloud Infrastructure, New York</p>
+      <ul class="links sc" aria-label="Profiles">
+        <li><a href="https://scholar.google.com/citations?user=X4jOTDMAAAAJ">Google Scholar</a></li>
+        <li><a href="https://www.linkedin.com/in/phumonhtut/">LinkedIn</a></li>
+        <li><a href="https://github.com/phu-pmh">GitHub</a></li>
+        <li><a href="https://x.com/phu_pmh">X</a></li>
+      </ul>
     </div>
+    <figure class="portrait"><img src="/images/headshot.jpg" alt="Phu Mon Htut" width="132" height="160"></figure>
   </header>
 
-  <section class="intro">
-    <p>I'm a Principal Applied Scientist on the Responsible AI team at Oracle Cloud Infrastructure, based in New York. I work on making LLM agents safer. More broadly, I work on evaluation, and on finding out why AI systems fail and how to fix them.</p>
-  </section>
+  <p class="lede">I'm a Principal Applied Scientist on the Responsible AI team at Oracle Cloud Infrastructure, based in New York. I work on making LLM agents safer. More broadly, I work on evaluation, and on finding out why AI systems fail and how to fix them.</p>
 
-  <section>
+  <section class="sec">
     <h2>Research interests</h2>
-
-    <details class="theme">
-      <summary>
-        <span class="icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path class="fill" d="M24 5l15 6v10c0 9.8-6.3 18-15 22-8.7-4-15-12.2-15-22V11l15-6z"/><path class="line" d="M24 5l15 6v10c0 9.8-6.3 18-15 22-8.7-4-15-12.2-15-22V11l15-6z"/><path class="line thin" d="M18 28l6-10 6 10z"/><circle class="dot" cx="24" cy="18" r="3"/><circle class="dot" cx="18" cy="28" r="3"/><circle class="dot" cx="30" cy="28" r="3"/></svg></span>
-        <span class="head"><span class="title">Safeguards for LLM agents</span><span class="blurb">Defending agentic and multi-agent systems against prompt injection, unsafe actions and hallucinated tool calls.</span></span>
-        <span class="chev" aria-hidden="true"></span>
-      </summary>
-      <div class="more">
-      <p>These days I mostly work on safeguards for agentic and multi-agent systems, across different attack surfaces and attack types. In these systems, malicious instructions can arrive through user input, but also through tool outputs, tool descriptions or messages from other agents. I also work on catching unsafe actions and hallucinated tool calls. Our recent paper, MAS-Guard, proposes guardrails that work for both single agents and multi-agent systems <a class="cite" href="https://arxiv.org/abs/2610.28397">arXiv '26</a>. Before Oracle, I led the prompt-injection, toxic-content and hallucination detectors that shipped in <a href="https://aws.amazon.com/bedrock/guardrails/">Amazon Bedrock Guardrails</a>. On the side, I've been exploring automated red-teaming where the attacker and the guardrail keep improving against each other.</p>
-    </div>
-    </details>
-
-    <details class="theme">
-      <summary>
-        <span class="icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect class="fill" x="10" y="8" width="28" height="34" rx="4"/><rect class="line" x="10" y="8" width="28" height="34" rx="4"/><rect class="dot" x="18" y="5" width="12" height="6" rx="2"/><path class="line thin" d="M16 34v-6M22 34V22M28 34v-9"/><circle class="badge" cx="36" cy="36" r="7"/><path class="tick" d="M32.8 36l2.2 2.2 4.2-4.4"/></svg></span>
-        <span class="head"><span class="title">Evaluation</span><span class="blurb">Evaluation data, pipelines and benchmarks, for production systems and for research.</span></span>
-        <span class="chev" aria-hidden="true"></span>
-      </summary>
-      <div class="more">
-      <p>A lot of my work has been about evaluation, both for production systems and in published research. At AWS I worked with human annotators to collect high-quality seed data for Bedrock Guardrails and for RAG post-training of <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html">Amazon Titan</a> models, and built pipelines that generate synthetic data from it for fine-tuning and evaluation. At Oracle I run the evaluation pipeline for our agent safeguards, including synthetic data for measuring vulnerabilities and stress-testing safeguards before release.</p>
+    <div class="body">
+      <details class="topic">
+        <summary>
+          <span><span class="t"><span class="num">i.</span>Safeguards for LLM agents</span><span class="b">Defending agentic and multi-agent systems against prompt injection, unsafe actions and hallucinated tool calls.</span><span class="more"><span class="plus" aria-hidden="true"></span></span></span>
+          <svg class="art" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M32 6l20 7.5v13.2c0 13-8.4 23.8-20 29.3C20.4 50.5 12 39.7 12 26.7V13.5L32 6z"/>
+<path class="h" d="M16 18l7-2.6M14 25l14-5.2M13.5 32l14.5-5.4M15 37.6l11.5-4.3M17.5 42.6l8-3"/>
+<path d="M32 22v10M32 32l-8 9M32 32l8 9"/>
+<circle cx="32" cy="21" r="3.2" fill="var(--paper)"/><circle cx="24" cy="42" r="3.2" fill="var(--paper)"/>
+<circle class="af" cx="40" cy="42" r="3.4"/>
+<path class="a" d="M47 47l8 8M55 47l-8 8"/>
+</svg>
+        </summary>
+        <div class="text">
+        <p>These days I mostly work on safeguards for agentic and multi-agent systems, across different attack surfaces and attack types. In these systems, malicious instructions can arrive through user input, but also through tool outputs, tool descriptions or messages from other agents. I also work on catching unsafe actions and hallucinated tool calls. Our recent paper, MAS-Guard, proposes guardrails that work for both single agents and multi-agent systems <a class="cite" href="https://arxiv.org/abs/2610.28397">arXiv '26</a>. Before Oracle, I led the prompt-injection, toxic-content and hallucination detectors that shipped in <a href="https://aws.amazon.com/bedrock/guardrails/">Amazon Bedrock Guardrails</a>. On the side, I've been exploring automated red-teaming where the attacker and the guardrail keep improving against each other.</p>
+        </div>
+      </details>
+      <details class="topic">
+        <summary>
+          <span><span class="t"><span class="num">ii.</span>Evaluation</span><span class="b">Evaluation data, pipelines and benchmarks, for production systems and for research.</span><span class="more"><span class="plus" aria-hidden="true"></span></span></span>
+          <svg class="art" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M8 54h48"/>
+<path d="M8 54V10M8 18h3M8 26h3M8 34h3M8 42h3"/>
+<rect x="16" y="34" width="7" height="20"/><rect x="28" y="22" width="7" height="32"/><rect x="40" y="28" width="7" height="26"/>
+<path class="h" d="M28 26l7-4M28 32l7-4M28 38l7-4M28 44l7-4M28 50l7-4"/>
+<path class="a" d="M12 25h46" stroke-dasharray="2 3"/>
+<circle class="af" cx="31.5" cy="16" r="2.6"/>
+</svg>
+        </summary>
+        <div class="text">
+        <p>A lot of my work has been about evaluation, both for production systems and in published research. At AWS I worked with human annotators to collect high-quality seed data for Bedrock Guardrails and for RAG post-training of <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/titan-models.html">Amazon Titan</a> models, and built pipelines that generate synthetic data from it for fine-tuning and evaluation. At Oracle I run the evaluation pipeline for our agent safeguards, including synthetic data for measuring vulnerabilities and stress-testing safeguards before release.</p>
       <p>I've also worked on benchmarks such as BBQ for social bias in question answering <a class="cite" href="https://aclanthology.org/2022.findings-acl.165/">ACL Findings '22</a>, (QA)² for questions with questionable assumptions <a class="cite" href="https://aclanthology.org/2023.acl-long.472/">ACL '23</a>, and open-domain QA with conflicting retrieved contexts <a class="cite" href="https://aclanthology.org/2025.findings-naacl.99/">NAACL Findings '25</a>. Beyond building them, I've looked at how good our benchmarks are, using item response theory to compare test sets <a class="cite" href="https://aclanthology.org/2021.acl-long.92/">ACL '21</a> and to cluster examples across benchmarks <a class="cite" href="https://aclanthology.org/2022.insights-1.14/">Insights '22</a>. During my PhD I helped build <a href="https://aclanthology.org/2020.acl-demos.15/">jiant</a>, a toolkit for training and evaluating NLU models, and I co-organized the IWSLT 2023 shared task on formality control in translation <a class="cite" href="https://aclanthology.org/2023.iwslt-1.1/">IWSLT '23</a>.</p>
-    </div>
-    </details>
-
-    <details class="theme">
-      <summary>
-        <span class="icon"><svg viewBox="0 0 48 48" aria-hidden="true"><circle class="fill" cx="21" cy="21" r="13"/><circle class="line" cx="21" cy="21" r="13"/><path class="line" d="M30.5 30.5L41 41"/><path class="line thin" d="M12 23h4l2.5-6 3.5 11 2.5-7H30"/><circle class="badge" cx="24.5" cy="21" r="2.4"/></svg></span>
-        <span class="head"><span class="title">Why AI systems work or fail</span><span class="blurb">Analyzing why models, agents and multi-agent systems fail, and fixing what we find.</span></span>
-        <span class="chev" aria-hidden="true"></span>
-      </summary>
-      <div class="more">
-      <p>I like figuring out why a model, or a whole agentic system around it, behaves the way it does, and then using that to fix it. While post-training Titan models at AWS, I explored methods for estimating P("I know") and used them in ablation experiments to design fine-tuning data that teaches a model to say it doesn't know, ask a follow-up question, or call retrieval, building on work by <a href="https://arxiv.org/abs/2207.05221">Kadavath et al. (2022)</a> showing that models largely know what they know. With PhD interns, I've also worked on long-context hallucination detection <a class="cite" href="https://aclanthology.org/2025.findings-naacl.436/">NAACL Findings '25</a>, estimating black-box uncertainty by probing a model with varied rephrasings <a class="cite" href="https://aclanthology.org/2025.findings-emnlp.660/">EMNLP Findings '25</a>, and checking whether vision-language models' reasoning steps are grounded in the image, and repairing those that aren't <a class="cite" href="https://aclanthology.org/2026.eacl-long.194/">EACL '26</a>.</p>
+        </div>
+      </details>
+      <details class="topic">
+        <summary>
+          <span><span class="t"><span class="num">iii.</span>Why AI systems work or fail</span><span class="b">Analyzing why models, agents and multi-agent systems fail, and fixing what we find.</span><span class="more"><span class="plus" aria-hidden="true"></span></span></span>
+          <svg class="art" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 36h8l3-5 3 5h4"/>
+<path class="a" d="M22 36l3-17 4 30 3-13"/>
+<path d="M32 36h4l3-5 3 5h8"/>
+<circle cx="27" cy="33" r="15"/>
+<path class="h" d="M17 24a14 14 0 0 1 8-6"/>
+<path d="M38 44l12 12" stroke-width="3"/>
+</svg>
+        </summary>
+        <div class="text">
+        <p>I like figuring out why a model, or a whole agentic system around it, behaves the way it does, and then using that to fix it. While post-training Titan models at AWS, I explored methods for estimating P("I know") and used them in ablation experiments to design fine-tuning data that teaches a model to say it doesn't know, ask a follow-up question, or call retrieval, building on work by <a href="https://arxiv.org/abs/2207.05221">Kadavath et al. (2022)</a> showing that models largely know what they know. With PhD interns, I've also worked on long-context hallucination detection <a class="cite" href="https://aclanthology.org/2025.findings-naacl.436/">NAACL Findings '25</a>, estimating black-box uncertainty by probing a model with varied rephrasings <a class="cite" href="https://aclanthology.org/2025.findings-emnlp.660/">EMNLP Findings '25</a>, and checking whether vision-language models' reasoning steps are grounded in the image, and repairing those that aren't <a class="cite" href="https://aclanthology.org/2026.eacl-long.194/">EACL '26</a>.</p>
       <p>My PhD work had a similar flavor. I studied when and why intermediate-task transfer helps pretrained models <a class="cite" href="https://aclanthology.org/2020.acl-main.467/">ACL '20</a> <a class="cite" href="https://aclanthology.org/2020.aacl-main.56/">AACL '20</a>, what BERT knows about grammar <a class="cite" href="https://aclanthology.org/D19-1286/">EMNLP '19</a> and whether its attention heads track syntax <a class="cite" href="https://arxiv.org/abs/1911.12246">arXiv '19</a>, and replicated a grammar induction result to understand why it worked <a class="cite" href="https://aclanthology.org/D18-1544/">EMNLP '18</a>.</p>
+        </div>
+      </details>
     </div>
-    </details>
   </section>
 
-  <section>
+  <section class="sec">
     <h2>Experience</h2>
+    <div class="body">
     <dl class="ledger">
       <dt>2026 – now</dt>
       <dd>Principal Applied Scientist, Oracle Cloud Infrastructure<span class="sub">Responsible AI: safeguards and evaluation for LLM agents and multi-agent systems.</span></dd>
@@ -197,26 +248,32 @@ footer { font-family: var(--mono); font-size: 0.7rem; color: var(--muted); borde
       <dt>2016 – 2017</dt>
       <dd>Research Software Engineer, A*STAR Institute of High Performance Computing</dd>
     </dl>
+      </div>
   </section>
 
-  <section>
+  <section class="sec">
     <h2>Education</h2>
+    <div class="body">
     <dl class="ledger">
       <dt>2022</dt>
       <dd>PhD in Data Science, New York University<span class="sub">Advised by <a href="https://sleepinyourhat.github.io/">Sam Bowman</a> and <a href="https://kyunghyuncho.me/">Kyunghyun Cho</a>. My thesis applied transfer and multi-task learning to natural language understanding, and analyzed and benchmarked these methods to understand when and why they work or fail.</span></dd>
       <dt>2015</dt>
       <dd>B.Eng. in Computer Science, Nanyang Technological University</dd>
     </dl>
+      </div>
   </section>
 
-  <section class="misc">
+  <section class="sec misc">
     <h2>Misc</h2>
+    <div class="body">
     <p>Pronouns: she/they. You can call me Phu (the h is silent in both my names). I'm originally from Yangon, Myanmar, and lived in Singapore for about ten years before moving to New York. Fun fact: I <a href="https://www.ted.com/watch/ted-institute/ted-state-street/ma-shwe-win-cynthia-not-good-with-names-local-name-customs-in-a-global-village">don't have a family name</a>.</p>
+      </div>
   </section>
 
-  <footer>Updated October 2026</footer>
+  
+  <footer><span>Updated October 2026</span><span>Set in Newsreader</span></footer>
 <script>
-document.querySelector(".theme-toggle").addEventListener("click", function () {
+document.querySelector(".toggle").addEventListener("click", function () {
   var root = document.documentElement;
   var dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
   root.dataset.theme = dark ? "light" : "dark";
