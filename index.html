@@ -20,7 +20,7 @@ try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dat
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Familjen+Grotesk:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Familjen+Grotesk:wght@400;500;600&display=swap">
 <style>
 :root {
   --bg: #ffffff;
@@ -28,22 +28,22 @@ try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dat
   --muted: #5c5c5c;
   --faint: #8f8f8f;
   --rule: #e6e6e6;
-  --accent: #7d2232;
-  --accent-ink: #651a28;
-  --soft: #f6e8ea;
-  --mark: #edcdd2;
+  --accent: #3f4a3c;
+  --accent-ink: #2f382d;
+  --soft: #e9ece6;
+  --mark: #d0d7cb;
   --font: "Source Serif 4", Georgia, serif;
   --ui: "Familjen Grotesk", "Helvetica Neue", Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #141414; --ink: #ececec; --muted: #a3a3a3; --faint: #737373; --rule: #2a2a2a;
-    --accent: #d98a96; --accent-ink: #e6a3ad; --soft: #2a1a1e; --mark: #4d2430; color-scheme: dark;
+    --accent: #a9b8a3; --accent-ink: #c0ccba; --soft: #1e231d; --mark: #364032; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #141414; --ink: #ececec; --muted: #a3a3a3; --faint: #737373; --rule: #2a2a2a;
-  --accent: #d98a96; --accent-ink: #e6a3ad; --soft: #2a1a1e; --mark: #4d2430; color-scheme: dark;
+  --accent: #a9b8a3; --accent-ink: #c0ccba; --soft: #1e231d; --mark: #364032; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -226,7 +226,7 @@ footer { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wr
 }
 /* Serif for reading, sans for small interface text, as on PM's Notes. */
 .secnav, .strip, .ledger dt, .badge, footer, .toggle { font-family: var(--ui); }
-h1 { letter-spacing: -0.015em; }
+h1 { font-family: "Newsreader", var(--font); font-weight: 500; letter-spacing: -0.01em; }
 .t, .ledger dd { letter-spacing: 0; }
 </style>
 </head>
@@ -349,7 +349,7 @@ h1 { letter-spacing: -0.015em; }
   </section>
 
   
-  <footer>Set in Source Serif 4 and Familjen Grotesk.</footer>
+  <footer>Set in Newsreader, Source Serif 4 and Familjen Grotesk.</footer>
   
 <script>
 document.querySelector(".toggle").addEventListener("click", function () {
