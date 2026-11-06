@@ -180,6 +180,46 @@ html { scroll-padding-top: 4rem; scroll-behavior: smooth; }
   .secnav::-webkit-scrollbar { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* ---- Notes style: same structure and type as the PM's Notes blog ---- */
+body { font-size: 17px; line-height: 1.75; font-feature-settings: normal; }
+main { padding-block: 0 4rem; }
+.bar, .bar.stuck { height: auto; padding: 1.4rem 0 1.2rem; margin-bottom: 2.2rem; gap: 1.3rem; justify-content: flex-start; flex-wrap: wrap;
+  box-shadow: 0 0 0 100vmax var(--bg), inset 0 -1px var(--rule); }
+.bname, .bar.stuck .bname { display: inline-flex; align-items: center; gap: 0.55rem; max-width: none; opacity: 1; margin: 0 auto 0 0;
+  font-size: 1.3rem; font-weight: 600; letter-spacing: -0.02em; }
+.bname::before { content: ""; width: 0.6rem; height: 0.6rem; border-radius: 50%; background: var(--accent); flex: none; }
+.secnav { margin-right: 0; gap: 1.3rem; font-size: 0.98rem; }
+.secnav a { font-weight: 400; padding: 0; }
+.secnav a.on::after { display: none; }
+.top { padding: 0.4rem 0 1.8rem; gap: 1.5rem; }
+.portrait { width: 112px; height: 112px; }
+h1 { font-size: clamp(2rem, 5vw, 2.5rem); line-height: 1.2; letter-spacing: -0.025em; }
+h1 .nick { letter-spacing: -0.015em; }
+.role { margin-top: 0.45rem; font-size: 0.98rem; line-height: 1.55; }
+.lede { font-size: 1.15rem; line-height: 1.7; letter-spacing: 0; margin-bottom: 2.6rem; }
+h2 { font-size: 1.05rem; color: var(--accent-ink); letter-spacing: 0; margin-bottom: 0.4rem; }
+h2::before { display: none; }
+section { margin-bottom: 2.6rem; }
+.t { font-size: 1.15rem; letter-spacing: -0.01em; line-height: 1.5; }
+.b { font-size: 0.92rem; line-height: 1.5; }
+.text { line-height: 1.75; }
+.ledger { gap: 0 1.5rem; grid-template-columns: 6.5rem minmax(0, 1fr); }
+.ledger dt, .ledger dd { border-top: 1px solid var(--rule); padding: 0.85rem 0; }
+.ledger dt:nth-last-of-type(1), .ledger dd:last-of-type { border-bottom: 1px solid var(--rule); }
+.ledger dt { color: var(--faint); font-size: 0.9rem; padding-top: 0.95rem; }
+.ledger dd { font-weight: 600; font-size: 1.05rem; line-height: 1.55; }
+.ledger .sub { font-size: 0.92rem; line-height: 1.55; }
+footer { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: 1.4rem 0 2.4rem; font-size: 0.9rem; }
+@media (max-width: 600px) {
+  body { font-size: 16.5px; }
+  .bname { display: inline-flex; }
+  .secnav { width: 100%; order: 3; }
+  .ledger { grid-template-columns: 1fr; }
+  .ledger dd { border-top: 0; padding-top: 0; }
+  .ledger dt { padding-bottom: 0.1rem; }
+  .ledger dt:nth-last-of-type(1) { border-bottom: 0; }
+}
 </style>
 </head>
 <body>
